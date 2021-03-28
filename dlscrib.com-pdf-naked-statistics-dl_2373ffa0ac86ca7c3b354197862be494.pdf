@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<title>[PDF] Naked Statistics | WIAC.INFO</title>
+<meta name="description" content="Developed and extended from PDF.js a general-purpose, web standards-based platform for parsing and rendering PDFs.">
+<link rel="canonical" href="https://wiac.info/doc-viewer" />
+<meta property="og:url" content="https://wiac.info/doc-viewer" />
+<meta property="og:title" content="[PDF] Naked Statistics | WIAC.INFO" />
+<meta property="og:description" content="Developed and extended from PDF.js a general-purpose, web standards-based platform for parsing and rendering PDFs." />
+<meta property="og:image" content="https://wiac.info/themes/wiac/assets/img/wiac_logo.png" />
+<meta property="og:site_name" content="wiac.info" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@wiac.info" />
+<meta name="twitter:title" content="[PDF] Naked Statistics | WIAC.INFO" />
+<meta name="twitter:description" content="Developed and extended from PDF.js a general-purpose, web standards-based platform for parsing and rendering PDFs." />
+<meta name="twitter:image" content="https://wiac.info/themes/wiac/assets/img/wiac_logo.png" />
+<meta name="format-detection" content="telephone=no">
+<meta name="application-name" content="wiac.info" />
+<meta name="apple-mobile-web-app-status-bar-style" content="white" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="msapplication-TileColor" content="#FFF" />
+<meta name="theme-color" content="#FFF" />
+<link rel="apple-touch-icon" sizes="57x57" href="https://wiac.info/themes/wiac/assets/img/apple-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="60x60" href="https://wiac.info/themes/wiac/assets/img/apple-icon-60x60.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="https://wiac.info/themes/wiac/assets/img/apple-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="https://wiac.info/themes/wiac/assets/img/apple-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="https://wiac.info/themes/wiac/assets/img/apple-icon-76x76.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="https://wiac.info/themes/wiac/assets/img/apple-icon-120x120.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="https://wiac.info/themes/wiac/assets/img/apple-icon-152x152.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="https://wiac.info/themes/wiac/assets/img/apple-icon-180x180.png" />
+<link rel="icon" type="image/png" href="https://wiac.info/themes/wiac/assets/img/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://wiac.info/themes/wiac/assets/img/android-icon-36x36.png" sizes="36x36" />
+<link rel="icon" type="image/png" href="https://wiac.info/themes/wiac/assets/img/android-icon-48x48.png" sizes="48x48" />
+<link rel="icon" type="image/png" href="https://wiac.info/themes/wiac/assets/img/android-icon-72x72.png" sizes="72x72" />
+<link rel="icon" type="image/png" href="https://wiac.info/themes/wiac/assets/img/android-icon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://wiac.info/themes/wiac/assets/img/android-icon-144x144.png" sizes="144x144" />
+<link rel="icon" type="image/png" href="https://wiac.info/themes/wiac/assets/img/android-icon-192x192.png" sizes="192x192" />
+<link rel="icon" type="image/png" href="https://wiac.info/themes/wiac/assets/img/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="https://wiac.info/themes/wiac/assets/img/favicon-16x16.png" sizes="16x16" />
+<meta name="msapplication-TileImage" content="https://wiac.info/themes/wiac/assets/img/ms-icon-144x144.png" />
+<meta name="msapplication-square70x70logo" content="https://wiac.info/themes/wiac/assets/img/ms-icon-70x70.png" />
+<meta name="msapplication-square150x150logo" content="https://wiac.info/themes/wiac/assets/img/ms-icon-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="https://wiac.info/themes/wiac/assets/img/ms-icon-310x150.png" />
+<meta name="msapplication-square310x310logo" content="https://wiac.info/themes/wiac/assets/img/ms-icon-310x310.png" />
+<link href="https://wiac.info/themes/wiac/assets/img/apple-startup-320x460.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image" />
+<link href="https://wiac.info/themes/wiac/assets/img/apple-startup-640x920.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="https://wiac.info/themes/wiac/assets/img/apple-startup-640x1096.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="https://wiac.info/themes/wiac/assets/img/apple-startup-748x1024.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 1) and (orientation: landscape)" rel="apple-touch-startup-image" />
+<link href="https://wiac.info/themes/wiac/assets/img/apple-startup-750x1024.png" media="" rel="apple-touch-startup-image" />
+<link href="https://wiac.info/themes/wiac/assets/img/apple-startup-750x1294.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="https://wiac.info/themes/wiac/assets/img/apple-startup-768x1004.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 1) and (orientation: portrait)" rel="apple-touch-startup-image" />
+<link href="https://wiac.info/themes/wiac/assets/img/apple-startup-1182x2208.png" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" rel="apple-touch-startup-image" />
+<link href="https://wiac.info/themes/wiac/assets/img/apple-startup-1242x2148.png" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" rel="apple-touch-startup-image" />
+<link href="https://wiac.info/themes/wiac/assets/img/apple-startup-1496x2048.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)" rel="apple-touch-startup-image" />
+<link href="https://wiac.info/themes/wiac/assets/img/apple-startup-1536x2008.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)" rel="apple-touch-startup-image" />
+<link rel="shortcut icon" href="https://wiac.info/themes/wiac/assets/img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="https://wiac.info/themes/wiac/assets/img/favicon.ico" type="image/x-icon">
+<link href='https://wiac.info/themes/wiac/assets/theme.min.css?v=3.1' rel='stylesheet' type='text/css'>
+<link href='https://wiac.info/themes/wiac/assets/main.css' rel='stylesheet' type='text/css'>
+<script src="https://wiac.info/themes/wiac/assets/jquery-3.2.1.min.js"></script>
+<script src="https://wiac.info/themes/wiac/assets/bootstrap.min.js"></script>
+<script data-ad-client="ca-pub-8668567334728805" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+<body>
+<header class="bg-light box-shadow-sm navbar-sticky">
+<nav class="navbar navbar-expand-lg navbar-light">
+<div class="container">
+<a href="https://wiac.info/" class="navbar-brand"><img src="https://wiac.info/themes/wiac/assets/img/wiac_logo.png" alt="wiac.info logo" width="100px" /></a>
+<div class="navbar-toolbar">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+</div>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<hr class="my-3">
+<ul class="navbar-nav">
+<li class="nav-item">
+<a class="nav-link " href="https://wiac.info/">Home</a>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="dropdown-1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+Pages
+</a>
+<div class="dropdown-menu" aria-labelledby="dropdown-1">
+<a class="dropdown-item" href="https://wiac.info/privacy-policy">Privacy Policy</a>
+<a class="dropdown-item" href="https://wiac.info/terms-of-service">Terms Of Service</a>
+<a class="dropdown-item" href="https://wiac.info/cookie-policy">Cookie Policy</a>
+<a class="dropdown-item" href="https://wiac.info/contact-us">Contact Us</a>
+<a class="dropdown-item" href="https://wiac.info/faqs">FAQs</a>
+</div>
+</li>
+<li class="nav-item dropdown">
+<a class="nav-link dropdown-toggle" href="#" id="dropdown-1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+Rest API
+</a>
+<div class="dropdown-menu" aria-labelledby="dropdown-1">
+<a class="dropdown-item" href="https://wiac.info/doc-api-get-started">API Get Started</a>
+<a class="dropdown-item" href="https://wiac.info/doc-api-documentation">API Documentation</a>
+</div>
+</li>
+</ul>
+<ul class="navbar-nav">
+<li class="nav-item">
+<a class="nav-link" href="https://wiac.info/docs">Docs</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="https://wiac.info/changelog">Change Logs</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+</header>
+<div class="container">
+<div class="alert alert-danger my-2">
+Captcha invalid. Please try again. </div>
+</div>
+<div class="container">
+<div class="row my-3">
+<div class="col-12 col-md-8 order-2 order-md-1 my-2">
+<div class="d-block my-3">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8668567334728805" data-ad-slot="6678510331" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>
+			 (adsbygoogle = window.adsbygoogle || []).push({});
+		    </script>
+</div>
+<iframe src="/viewer/web/viewer.html?file=https%3A%2F%2Fwiac.info%2Fdocdownloadv2-pdf-naked-statistics-dl_2373ffa0ac86ca7c3b354197862be494%3Fdata_code%3Dc763c26db7550f379babdc17c789f2e9#zoom=auto" width="99.9%" frameborder="1" style="height: 600px;" class="border"></iframe>
+</div>
+<div class="col-12 col-md-4 order-1 order-md-2 my-2">
+<div class="d-block my-3">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8668567334728805" data-ad-slot="6678510331" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>
+			 (adsbygoogle = window.adsbygoogle || []).push({});
+		    </script>
+</div>
+<div style="font-size: 24px; font-weight: bold; line-height: 26px;" class="mb-2">Naked Statistics</div>
+<p>naked statistics Stripping the Dread from the Data CHARLES WHEELAN
+Dedication For Katrina
+Contents Cover Title Page </p>
+<ul>
+<li><span>File size: 2,053,151 Bytes</span></li>
+<li><span>File type: PDF</span></li>
+</ul>
+<button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#downloadModalCenter" id="btnDownload">DOWNLOAD FILE</button>
+<div class="d-block my-3">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8668567334728805" data-ad-slot="6678510331" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>
+			 (adsbygoogle = window.adsbygoogle || []).push({});
+		    </script>
+</div>
+</div>
+<div class="col-12 order-3 order-md-3 my-3">
+<div class="d-block p-3 border text-justify">
+<div class="d-block my-3">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8668567334728805" data-ad-slot="6678510331" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>
+			     (adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+</div>
+naked statistics Stripping the Dread from the Data CHARLES WHEELAN<br />
+<br />
+Dedication For Katrina<br />
+<br />
+Contents Cover Title Page Dedication Introduction: Why I hated calculus but love statistics 1 What’s the Point? 2 Descriptive Statistics: Who was the best baseball player of all time? Appendix to Chapter 2<br />
+<br />
+3 Deceptive Description: “He’s got a great personality!” and other true but grossly misleading statements 4 Correlation: How does Netflix know what movies I like? Appendix to Chapter 4<br />
+<br />
+5 Basic Probability: Don’t buy the extended warranty on your $99 printer 5½ The Monty Hall Problem 6 Problems with Probability: How overconfident math geeks nearly destroyed the global financial system 7 The Importance of Data: “Garbage in, garbage out” 8 The Central Limit Theorem: The Lebron James of statistics 9 Inference: Why my statistics professor thought I might have cheated Appendix to Chapter 9<br />
+<br />
+10 Polling: How we know that 64 percent of Americans support the death penalty (with a sampling error ± 3 percent) Appendix to Chapter 10<br />
+<br />
+11 Regression Analysis: The miracle elixir Appendix to Chapter 11<br />
+<br />
+12 Common Regression Mistakes: The mandatory warning label 13 Program Evaluation: Will going to Harvard change your life? Conclusion: Five questions that statistics can help answer Appendix: Statistical software Notes Acknowledgments Index Copyright Also by Charles Wheelan<br />
+<br />
+Introduction Why I hated calculus but love statistics<br />
+<br />
+I have always had an uncomfortable relationship with math. I don’t like numbers for the sake of numbers. I am not impressed by fancy formulas that have no real-world application. I particularly disliked high school calculus for the simple reason that no one ever bothered to tell me why I needed to learn it. What is the area beneath a parabola? Who cares? In fact, one of the great moments of my life occurred during my senior year of high school, at the end of the first semester of Advanced Placement Calculus. I was working away on the final exam, admittedly less prepared for the exam than I ought to have been. </div>
+</div>
+</div>
+<div class="row my-3">
+<div class="col-12">
+<h1>WIAC INFO PDFs Web Standards-Based</h1>
+<p>Developed and extended from PDF.js a general-purpose, web standards-based platform for parsing and rendering PDFs.</p>
+</div>
+<div class="col-12 my-2 text-justify">
+<div class="row my-3">
+<div class="col-12 col-md-4">
+<hr />
+<p><strong class="d-block">Read, Review, Annotate</strong></p>
+<p>Whether you're working on my own or taking part with a set, WIAC INFO maximizes productiveness, permitting you to without problems look at, examine, annotate, and are in search of PDFs.</p>
+</div>
+<div class="col-12 col-md-4">
+<hr />
+<p><strong class="d-block">Highlighting, Drawing, Notes</strong></p>
+<p>PDF documents thru highlighting textual content, together with notes, freehand ink drawings, images and greater is easy and smooth with WIAC INFO. When you have were given finished, with out difficulty percent or print the ones documents too.</p>
+<ul class="list-group">
+<li class="list-group-item">Highlight text, ink drawing, inclusive of images and notes, are simply some of the severa annotations types available.</li>
+<li class="list-group-item">Using the annotation inspector, you can fast regulate the style of your annotations to fit your needs.</li>
+<li class="list-group-item">List of all of the annotations made makes it smooth to look which components of the file are being worked on or goals reviewing.</li>
+</ul>
+</div>
+<div class="col-12 col-md-4">
+<hr />
+<p><strong class="d-block">Move, Add, Delete, Rotate, Save</strong></p>
+<p>The document editor permits you to effortlessly add new pages, replica gift ones, rotate them, delete useless ones or maybe create a contemporary report from a spread of pages out of every other document.</p>
+<hr />
+<p><strong class="d-block">Signature Anywhere</strong></p>
+<p>With WIAC INFO you may signal documents and workplace paintings everywhere, the usage of your finger or stylus, which include the Apple Pencil. Resize and circulate your signature as desired at the report. When finished, flatten and maintain the file to save you any adjustments.</p>
+</div>
+</div>
+<div class="row my-3">
+<div class="col-12 col-md-4">
+<img src="https://wiac.info/themes/wiac/assets/img/annotations-777f9468.svg" alt="Annotations" width="200" class="mb-4">
+<p><strong class="d-block">Annotations</strong></p>
+<p>Annotate your PDF files without problem via the usage of highlighting textual content, together with notes, freehand ink drawing, inclusive of images, and extra.</p>
+</div>
+<div class="col-12 col-md-4">
+<img src="https://wiac.info/themes/wiac/assets/img/document-editor-b55363a3.svg" alt="Document Editor" width="200" class="mb-4">
+<p><strong class="d-block">Editor</strong></p>
+<p>Add, duplicate, rotate, or delete pages, or maybe create a extremely-cutting-edge record with the beneficial resource of selecting pages from a few precise report.</p>
+</div>
+<div class="col-12 col-md-4">
+<img src="https://wiac.info/themes/wiac/assets/img/signatures-0b9a382d.svg" alt="Signatures" width="200" class="mb-4">
+<p><strong class="d-block">Signatures</strong></p>
+<p>Digital signature files and paperwork everywhere the usage of your finger or stylus, then flatten and maintain the file to save you modifications.</p>
+</div>
+<div class="col-12 col-md-4">
+<img src="https://wiac.info/themes/wiac/assets/img/advanced-settings-7a09cabe.svg" alt="Advanced Settings" width="200" class="mb-4">
+<p><strong class="d-block">Advanced Settings</strong></p>
+<p>Take complete control with settings for view modes, the thumbnail bar, are trying to find effects, and extra.</p>
+</div>
+<div class="col-12 col-md-4">
+<img src="https://wiac.info/themes/wiac/assets/img/copy-and-paste-pages-ad78606d.svg" alt="Copy and Paste Pages" width="200" class="mb-4">
+<p><strong class="d-block">Copy and Paste</strong></p>
+<p>Easily copy pages to a incredible region within the report, or perhaps amongst documents.</p>
+</div>
+<div class="col-12 col-md-4">
+<img src="https://wiac.info/themes/wiac/assets/img/freeform-rotation-a1407427.svg" alt="Signatures" width="200" class="mb-4">
+<p><strong class="d-block">Rotation</strong></p>
+<p>Annotate plans, maps, and have become round pages with 360° free form rotation for annotations.</p>
+</div>
+</div>
+</div>
+</div> </div>
+
+<div class="modal fade" id="downloadModalCenter" tabindex="-1" role="dialog" aria-labelledby="downloadModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<form action="https://wiac.info/docdownloadv2-pdf-naked-statistics-dl_2373ffa0ac86ca7c3b354197862be494" method="POST">
+<div class="modal-header">
+<h5 class="modal-title" id="downloadModalLongTitle">DOWNLOAD Naked Statistics</h5>
+<button type="button" class="close p-1" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body text-center">
+<div class="row my-3">
+<div class="col-lg-12 col-md-12 col-12 text-center cprocess">
+<progress value="0" max="0" id="pageBeginCountdown"></progress>
+<p>You can start your download in <span id="pageBeginCountdownText">0</span> seconds</p>
+</div>
+</div>
+<div id="html_element" class="d-inline-block"></div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal" id="btnCancel">Cancel</button>
+<button type="submit" class="btn btn-primary" id="btnDownloadF" disabled="disabled">DOWNLOAD</button>
+</div>
+</form>
+<script type="text/javascript">
+                    $('#btnDownloadF').on('click', function(){
+                        $('#btnCancel').click();
+                    });
+                    $('#btnDownload').on('click', function(){
+                        ProgressCountdown(0, 'pageBeginCountdown', 'pageBeginCountdownText').then(value => checkdownload());
+
+                        function checkdownload() {
+                            if ($('#html_element').html() == '') {
+                                var captchaContainer = null;
+                                var loadCaptcha = function() {
+                                    captchaContainer = grecaptcha.render('html_element', {
+                                        'sitekey' : '6LecYMwZAAAAAJv3kqHDfH9sC4_qA3NplhzOGQs7',
+                                        'callback' : function(response) {
+                                            console.log(response);
+                                        }
+                                    });
+                                };
+                                loadCaptcha();
+                                $('.cprocess').html('<p>Great, Now you can download after verified reCaptcha. Confirm <strong>I\'m not robot</strong> then click download button.<p>');
+                                $('#btnDownloadF').removeAttr('disabled');
+                            }
+                        }
+                    });
+                    function ProgressCountdown(timeleft, bar, text) {
+                        return new Promise((resolve, reject) => {
+                            var countdownTimer = setInterval(() => {
+                                timeleft--;
+                                document.getElementById(bar).value = timeleft;
+                                document.getElementById(text).textContent = timeleft;
+                                if (timeleft <= 0) {
+                                    clearInterval(countdownTimer);
+                                    resolve(true);
+                                }
+                            }, 1000);
+                        });
+                    }
+                </script>
+<script src="https://www.google.com/recaptcha/api.js?render=explicit"></script>
+</div>
+</div>
+</div>
+<footer class="bg-primary my-3 py-3">
+<div class="container">
+<div class="row my-3">
+<div class="col-12 col-md-6 text-white">
+<p class="mb-4">Copyright © 2021 WIAC.INFO. All rights reserved.</p>
+<div class="row my-3">
+<div class="col">
+<ul class="list-group list-group-minimal">
+<li class="list-group-item"><a href="https://wiac.info/docs" class="link">Training</a></li>
+<li class="list-group-item"><a href="https://wiac.info/doc-api-get-started" class="link">Integrations</a></li>
+<li class="list-group-item"><a href="https://wiac.info/doc-api-documentation" class="link">REST API</a></li>
+<li class="list-group-item"><a href="https://wiac.info/faqs" class="link">Frequently Asked Questions</a></li>
+</ul>
+</div>
+<div class="col">
+<ul class="list-group list-group-minimal">
+<li class="list-group-item"><a href="https://wiac.info/contact-us" class="link">Contact Us</a></li>
+<li class="list-group-item"><a href="https://wiac.info/privacy-policy" class="link">Privacy Policy</a></li>
+<li class="list-group-item"><a href="https://wiac.info/terms-of-service" class="link">Terms of Service</a></li>
+<li class="list-group-item"><a href="https://wiac.info/cookie-policy" class="link">Cookie Policy</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-2 ml-auto text-md-right">
+<div class="dropdown">
+<button class="btn btn-inverted btn-block dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+English
+</button>
+<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+<a class="dropdown-item" href="#">French</a>
+<a class="dropdown-item" href="#">German</a>
+</div>
+</div>
+</div>
+</div>
+<div class="row my-3">
+<div class="col-12 text-light">
+<hr class="my-3" />
+<p>PDF.js is licensed under <a class="text-white" href="https://github.com/mozilla/pdf.js/blob/master/LICENSE" target="_blank">Apache</a>, documentation is licensed under <a class="text-white" href="https://creativecommons.org/licenses/by-sa/2.5/" target="_blank">CC BY-SA 2.5</a></p>
+</div>
+</div>
+</div>
+</footer>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-178048806-1"></script>
+<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() {
+		    dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-178048806-1');
+	    </script>
+</body>
+</html>
